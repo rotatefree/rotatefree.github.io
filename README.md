@@ -16,9 +16,9 @@ We use Jquery. If you use datepicker, JqueryUI is necessary.
 
 
     <!--Input rotatefree-->
-    <script src=”js/rotatefree.js”></script>
+    <script src="js/rotatefree.js"></script>
     <!--Input rotatefree style-->
-    <link rel=”stylesheet” href=”css/rotatefree.css”>
+    <link rel="stylesheet” href=”css/rotatefree.css">
 
 
     <!--If you use datepicker should include JQuery UI and its style-->
@@ -27,7 +27,7 @@ We use Jquery. If you use datepicker, JqueryUI is necessary.
 
 
     <!--Our style-->
-    <link rel=”stylesheet” href=”css/input_style.css”>
+    <link rel="stylesheet" href="css/input_style.css">
 
 Rotate
 ------------------------------
@@ -42,18 +42,18 @@ Rotateleft: -90deg.<br>
 <br>
 html :
 
-    <div class=”rotatetop”>…</div>
+    <div class="rotatetop">…</div>
 
 ### Method 2 : 
 Use javascript to rotate it.<br>
 Html :
 
-    <div id=”IDNANE”></div>
+    <div id="IDNANE"></div>
 Javascript :
 
     $("#IDNAME"). rotate(parameter);
 
-parameters could be “top” , “right” , “left” or angle deg.
+parameters could be "top", "right", "left" or angle deg.
 
 Some objects need other HTML structure
 -----------------------------------------
@@ -81,14 +81,14 @@ Use JQueryUI datepicker instead of input type date.<br>
 <br>
 Html :
 
-    <input type=”text” id=”datepicker”>
+    <input type="text" id="datepicker">
 Javascript :
 
     $("#datepicker").datepicker();
-    $(“#datepicker”).rotate(parameters);  <!-- rotate the input element -->
-    $(“#datepicker”).daterotate(parameters);  <!-- rotate calendar  -->
+    $("#datepicker").rotate(parameters);  <!-- rotate the input element -->
+    $("#datepicker").daterotate(parameters);  <!-- rotate calendar  -->
 
-parameters could be “top” , “right” , “left” or angle deg.
+parameters could be "top", "right", "left" or angle deg.
 
 Keyboard
 ----------------------------------------
@@ -101,11 +101,11 @@ The HTML screen keyboard default size is 683px * 230px.<br>
 Html:
 
     <input type="text" class="textinput1"/>
-    <textarea class=”textinput1”><textarea>
+    <textarea class="textinput1"><textarea>
     <div id="keyboard1"></div>
-    <input type=”text” class=”textinput2”/>
-    <textarea class=”textinput2”>
-    <div id=”keyboard2”></div>
+    <input type="text" class="textinput2"/>
+    <textarea class="textinput2">
+    <div id="keyboard2"></div>
 Javascript:
 
     $(document).ready(function() {
