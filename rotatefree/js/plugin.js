@@ -26,10 +26,10 @@
                 $("#ui-datepicker-div").addClass("rotatetop");
             }
             if(dir == "left"){
-                $("#ui-datepicker-div").addClass("rotateright");
+                $("#ui-datepicker-div").addClass("rotateleft");
             }
             if(dir == "right"){
-                $("#ui-datepicker-div").addClass("rotateleft");
+                $("#ui-datepicker-div").addClass("rotateright");
             }
             else{
                 $("#ui-datepicker-div").rotate(dir);
