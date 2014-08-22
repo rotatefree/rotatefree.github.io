@@ -1,0 +1,84 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600);
+a , span , p , h2 , h3 option select {font-family: 'Open Sans', sans-serif;}
+
+a {text-decoration: none;}
+header {position: fixed;top: 0;width: 100%; height: 75px; box-shadow: 0 3px 5px rgba(0,0,0,.1);z-index: 2;background-color: #fff;}
+header div.topmenu {width: 1024px; height: 75px; margin: 0 auto;}
+header div.memuul {position: absolute;height: 75px;width: 800px;}
+header div.memuul ul {list-style: none;}
+header div.memuul ul li {float: left;text-align: center;font-size: 20px;display: inline-block;height: 75px; }
+header div.memuul ul li a.logolink img{width: 182px; height: 46px;position: relative;top: 15px;}
+header div.memuul ul li a.link {display: inline-block;padding: 0 30px ; line-height:75px;font-weight: 400;color: #00b7ee;}
+header div.memuul ul li a.link:hover, .memuul ul li a.active {background: #00b7ee; color: #fff;}
+
+.page {position: relative;background-color: #222222;height: 100%;}
+.wrapper {position: relative;width: 1024px; height: 70%; margin: 0 auto;top: 20px; }
+.btn a {display: block; border: 1px solid; -webkit-border-radius: 5px;-moz-border-radius: 5px;border-radius: 5px;font-size: 22px;font-weight: 300;text-align: center;}
+.title {font-size: 36px;font-weight: 300; width: 200px;}
+.content {position: absolute;width: 100%;height: 90%;margin-top: 10px;}
+
+#main {background-color: rgb(123, 170, 190);}
+#main .name {color: #fff;font-size: 48px;font-weight: 300;text-align: center;margin-top: 150px;}
+#main .description {color: #ffffff;font-size: 24px;font-weight: 300; margin-top: 20px;text-align: center;}
+#main .download_btn {width: 210px;height: 60px;position: relative;margin: 0 auto;top: 100px;}
+#main .download_btn a {height: 60px;width: 210px;border-color: #fff;line-height: 60px;text-align: center;color: #fff;}
+#main .download_btn a:hover {border-color: #222222;color: #222222;}
+
+#features {background-color: #9fe6e4; }
+#features {color: #222222;}
+#features .title {}
+#features .fe_box {width: 30%;height: 35%;margin: 10px;float: left;}
+#features .fe_box span {font-size: 20px;font-weight: 600;}
+#features .fe_box p {font-size: 16px;font-weight: 300;}
+
+#demo {background-color: #f7f7f7;}
+#demo .title{color: #000;}
+.fp-section {position: relative;-webkit-box-sizing: border-box; /* Safari<=5 Android<=3 */-moz-box-sizing: border-box; /* <=28 */box-sizing: border-box;}
+.fp-slide {float: left;}
+.fp-slide, .fp-slidesContainer {height: 100%;display: block;}
+.fp-slides {z-index:1;height: 100%;overflow: hidden;position: relative;-webkit-transition: all 0.3s ease-out; /* Safari<=6 Android<=4.3 */transition: all 0.3s ease-out;}
+.fp-section.fp-table, .fp-slide.fp-table {display: table;width: 100%;}
+.fp-tableCell {display: table-cell;vertical-align: middle;width: 100%;height: 100%;}
+.fp-slidesContainer {float: left;position: relative;}
+.fp-controlArrow {position: absolute;z-index: 1;top: 50%;cursor: pointer;width: 0;height: 0;border-style: solid;margin-top: -38px;}
+.fp-controlArrow.fp-prev {left: 15px;width: 0;border-width: 38.5px 34px 38.5px 0;border-color: transparent #000 transparent transparent;}
+.fp-controlArrow.fp-next {right: 15px;border-width: 38.5px 0 38.5px 34px;border-color: transparent transparent transparent #000;}
+#demo #slide1 .demo_cont {width: 681px; height: 70%;position: relative;padding: 20px 3%;margin: 0 auto;}
+#demo #slide1 p.sec_title{font-size: 24px;}
+#demo #slide1 input {margin: 10px 0px;width: 160px;}
+#keyboard1 {margin: 10px auto;}
+#demo #slide2 .demo_cont {width: 100%;height: 90%;position: relative;padding: 20px 3%;margin: 0 auto;}
+#demo #slide2 p.sec_title{font-size: 24px;margin-left: 30px;}
+#demo #slide2 {} 
+#demo #slide2 .ex {width: 291px;height: 350px;float: left; margin: 15px;padding: 10px;}
+#demo #slide2 .ex span.ro_class {display: inline-block; width: 100%;height: 70px;text-indent: -9999px;}
+#demo #slide2 .ro {width: 230px; height: 230px;margin: 0 auto;position: relative; border: 2px solid; border-color: #fff;padding: 20px;}
+#demo #slide2 #ro_left span.ro_class{background: url(../images/rotateleft.png) no-repeat;background-position: center;}
+#demo #slide2 #ro_left input {width: 220px;}
+#demo #slide2 #ro_left textarea {margin-top: 10px;overflow: hidden;}
+#demo #slide2 #ro_top span.ro_class{background: url(../images/rotatetop.png) no-repeat;background-position: center;}
+#demo #slide2 #ro_top input {margin: 15px 2px 0px 2px;}
+#demo #slide2 #ro_right span.ro_class{background: url(../images/rotateright.png) no-repeat;background-position: center;}
+#demo #slide2 #ro_right input {margin-top: 10px;margin-bottom: 10px;}
+#demo #slide2 #ro_right select {margin: 5px;}
+
+#use {background-color: #af7eaf;}
+#use .title {color: #fff;}
+#use .content{width: 50% ; height: 70% ; margin: 0 auto;position: relative;padding: 20px;}
+#use .use_ti {font-size: 40px;font-weight: 600;color: #333333;}
+#use .use_note {font-size: 14px;color: #555555;}
+#use img {margin: 20px 10px;}
+#use #document_btn {width: 150px;height: 50px;position: absolute;right: 0px; bottom: 0px;} 
+#use #document_btn a {width: 150px;height: 50px;line-height: 50px;font-size: 24px;border-color: #660088;color: #660088;}
+#use #document_btn a:hover{border-color: #fff;color: #fff;}
+
+#download {background-color: #e56363;}
+#download .title {}
+#download #download_btn_b {width: 300px;height: 70px;position: relative;margin: 0 auto;margin-top: 30%}
+#download #download_btn_b a{width: 300px;height: 70px;line-height: 70px;font-size: 24px;color: #fff;border-color: #fff;}
+#download #download_btn_b a:hover {color: #560272;border-color: #560272;}
+
+
+footer {background-color: #2a2a5a;}
+footer .wrapper_ft {width: 1024px;height: 60px; margin: 0 auto;}
+footer .wrapper_ft p{line-height: 60px;font-size: 16px;color: #fff;text-align: center;}

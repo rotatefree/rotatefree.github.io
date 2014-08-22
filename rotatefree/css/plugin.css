@@ -1,0 +1,24 @@
+/*rotate*/
+.rotateright{-ms-transform: rotate(90deg);-webkit-transform: rotate(90deg);-o-transform: rotate(90deg);-moz-transform: rotate(90deg);transform: rotate(90deg);/*transform-origin: 50% 50%;*/}
+.rotatetop{-ms-transform: rotate(180deg);-webkit-transform: rotate(180deg);
+-o-transform: rotate(180deg);-moz-transform: rotate(180deg);transform: rotate(180deg);}
+.rotateleft{-ms-transform: rotate(-90deg);-webkit-transform: rotate(-90deg);-o-transform: rotate(-90deg);-moz-transform: rotate(-90deg);transform: rotate(-90deg);/*transform-origin: 0% 100%;*/}
+/*keyboard*/
+.keyboard{margin: 0;padding: 0;list-style: none;-webkit-touch-callout: none;-webkit-user-select: none;-khtml-user-select: none;-moz-user-select: none;-ms-user-select: none;user-select: none;width: 683px;height: 230px;font: 71%/1.5 Verdana, Sans-Serif;}
+.keyboard div{float: left;margin: 0 5px 5px 0;width: 40px;height: 40px;line-height: 40px;text-align: center;background: #fff;border: 1px solid #f9f9f9;-moz-border-radius: 5px;-webkit-border-radius: 5px;}
+.keyboard div.capslock, .keyboard div.tab, .keyboard div.left-shift {clear: left;}
+.keyboard div.tab, .keyboard div.delete {width: 70px;}
+.keyboard div.capslock {width: 80px;}
+.keyboard div.return {width: 77px;}
+.keyboard div.left-shift {width: 95px;}
+.keyboard div.right-shift {width: 109px;}
+.keyboard div.lastitem {margin-right: 0;}
+.keyboard div.uppercase {text-transform: uppercase;}
+.keyboard div.space {clear: left;width: 681px;}
+.keyboard .on {display: none;}
+.keyboard div:hover {position: relative;top: 1px;left: 1px;border-color: #e5e5e5;cursor: pointer;}
+span.rotateselect{box-sizing: border-box;-webkit-appearance: menulist;width: 145px;height: 25px;padding:1px;display: block;border: 1px solid;border-color: #eeeeee;-webkit-border-radius: 5px;-moz-border-radius: 5px;border-radius: 5px;background: #ffffff;background-color: #ffffff;font-weight: 300;}
+ul.rotateselectbox{border: 1px solid #A9A9A9;width: 145px;display: none;margin: 0px;position: absolute;-webkit-padding-start: 0px;border: 1px solid;border-color: #eeeeee;-webkit-border-radius: 5px;-moz-border-radius: 5px;border-radius: 5px;background: #fff;}
+ul.rotateselectbox.open{display: block;}
+ul.rotateselectbox li{list-style-type:none;font-weight: normal;overflow:hidden;padding: 2px;}
+ul.rotateselectbox li:hover{background: #1FBBBD;color: white;}

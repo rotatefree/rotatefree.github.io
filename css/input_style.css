@@ -1,0 +1,35 @@
+html {font-family: '微軟正黑體','Arial';}
+
+input:focus,textarea:focus {outline: 0;}
+input[type="text"] ,input[type="email"] ,input[type="number"] ,input[type="time"],input[type="month"],input[type="week"]{width: 145px;height: 25px;font-size: 14px;padding-left: 5px;border: 1px solid;border-color: #eeeeee;-webkit-border-radius: 5px;-moz-border-radius: 5px;border-radius: 5px;}
+input[type="password"] {width: 145px;height: 25px;font-size: 14px;padding-left: 5px;border: 1px solid;border-color: #eeeeee;-webkit-border-radius: 5px;-moz-border-radius: 5px;border-radius: 5px;}
+textarea {font-size: 14px;padding: 5px;border: 1px solid;border-color: #eeeeee;-webkit-border-radius: 5px;-moz-border-radius: 5px;border-radius: 5px;font-family: '微軟正黑體','Arial';}
+input[type="button"]{width: 70px;height: 30px;color: #fff;font-family: '微軟正黑體','Arial';font-size: 14px;background-color: #3c82f8;border: none;-webkit-border-radius: 5px;-moz-border-radius: 5px;border-radius: 5px;}
+input[type="button"]:hover {background-color: #005bea;}
+input[type="submit"] {width: 70px;height: 30px;color: #fff;font-size: 14px;background-color: #35aa47;border: none;-webkit-border-radius: 5px;-moz-border-radius: 5px;border-radius: 5px;}
+input[type="submit"]:hover {background-color: #219032;}
+input[type="reset"] {width: 70px;height: 30px;color: #fff;font-size: 14px;background-color: #d3523f;border: none;-webkit-border-radius: 5px;-moz-border-radius: 5px;border-radius: 5px;}
+input[type="reset"]:hover {background-color: #bf3b2d;}
+input[type="color"] {width: 50px;height: 30px;border: 1px solid;-webkit-border-radius: 5px;-moz-border-radius: 5px;border-radius: 5px;background-color: #ffffff;border-color: #eeeeee;}
+input[type="color"]:hover {background-color: #eeeeee;} 
+input[type="date"] {width: 130px; height: 25px; border: 1px solid;border-color: #eeeeee;-webkit-border-radius: 5px;-moz-border-radius: 5px;border-radius: 5px;padding-left: 5px;}
+input[type="file"] {border: 1px solid;border-color: #eeeeee;-webkit-border-radius: 5px;-moz-border-radius: 5px;border-radius: 5px;padding-left: 5px;}
+input[type="checkbox"] {display:none;}
+input[type="checkbox"] + label span.i {display:inline-block;width:20px;height:20px;margin:-1px 4px 0 0;vertical-align:middle;background:url(../images/check_radio.png) left top no-repeat;cursor:pointer;}
+input[type="checkbox"]:checked + label span.i {background:url(../images/check_radio.png) -20px top no-repeat;}
+input[type="checkbox"] + labe span.t {color: #994949;}
+input[type="radio"] {display:none;}
+input[type="radio"] + label span.i {display:inline-block;width:20px;height:20px;margin:-1px 4px 0 0;vertical-align:middle;background:url(../images/check_radio.png) -40px top no-repeat;cursor:pointer;}
+input[type="radio"]:checked + label span.i {background:url(../images/check_radio.png) -60px top no-repeat;}
+
+select {width: 145px;height: 25px;border: 1px solid;border-color: #eeeeee;-webkit-border-radius: 5px;-moz-border-radius: 5px;border-radius: 5px;}
+/************************input btn**************************/
+.input_btn {width: 70px;height: 30px;font-size: 14px;border: none;}
+.blue {background-color: #3c82f8;}
+.blue:hover {background-color: #005bea;}
+.red {background-color: #d3523f;}
+.red:hover {background-color: #bf3b2d;}
+.green {background-color: #35aa47;}
+.green:hover {background-color: #219032;}
+.purple {background-color: #8e44ad;}
+.purple:hover {background-color: #7c3b97;}
