@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>DEMO</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./input_style.css">
+    <link rel="stylesheet" href="demo_style.css">
+    <link rel="stylesheet" href="../css/plugin.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+	<script type="text/javascript" src="../js/plugin.js"></script>
+	<script>
+	    $(document).ready(function() {
+            $("#keyboard1").keyboard('.textinput');
+            $("#datepicker").datepicker();
+            $("#datepicker").daterotate("right");
+            $("#rotateselect").rotateselect(90);
+            $("#ro_left .ro").rotate("left");
+            $("#ro_top .ro").rotate("top");
+            $("#ro_right .ro").rotate("right");
+        });
+	</script>
+</head>
+<body>
+<div class="wrapper">
+   <p class="title">Demo</p>
+    <div id="section1">
+       <p class="sec_title">HTML Screen Keyboard</p>
+        <div class="content">
+            <input type="text" class="textinput" placeholder="input">
+            <input type="text" class="textinput" placeholder="input">
+            <input type="text" class="textinput" placeholder="input">
+            <input type="text" class="textinput" placeholder="input">
+            <textarea cols="94" rows="2" class="textinput" placeholder="textarea"></textarea>
+            <div id="keyboard1"></div>
+        </div>
+    </div>
+    <div id="section2">
+       <p class="sec_title">Easy Rotate</p>
+        <div class="content">
+            <div class="ex_box" id="ro_left"><span class="ro_class">Rotateleft demo</span>
+                <div class="ro">
+                <input type="text" placeholder="Inpute Element">
+                <textarea cols="28" rows="10" placeholder="textarea Element"></textarea>
+                </div>
+            </div>
+            <div class="ex_box" id="ro_top"><span class="ro_class">Rotatetop demo</span>
+                <div class="ro">
+                <input type="submit" value="submit">
+                <input type="reset" value="reset">
+                <input type="button" value="button">
+                <br><br>
+                <input id="check1" type="checkbox" name="ch">
+                <label for="check1"><span class="i"></span><span class="t">check box1</span></label>
+                <input id="check2" type="checkbox" name="ch">
+                <label for="check2"><span class="i"></span><span class="t">check box2</span></label>
+                <br><br>
+                <input id="radio1" type="radio" name="radio">
+                <label for="radio1"><span class="i"></span><span class="t">radio box1</span></label>
+                <input id="radio2" type="radio" name="radio">
+                <label for="radio2"><span class="i"></span><span class="t">radio box2</span></label>
+                <br><br>
+                <input type="number" placeholder="type number">
+                </div>
+            </div>
+            <div class="ex_box" id="ro_right"><span class="ro_class">Rotateright demo</span>
+                <div class="ro">
+                <input type="text" id="datepicker" placeholder="JQuery UI datepicker">
+                <select name="select" id="rotateselect">
+                    <option value="1">Select option1</option>
+                    <option value="2">Select option2</option>
+                    <option value="3">Select option3</option>
+                </select>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
