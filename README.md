@@ -78,7 +78,7 @@ Html :
 Javascript :
 
     $("#rotateselect1").rotateselect();
-    $(".rotatediv").rotate(180);<!--rotate div to rotate select & option-->
+    $(".rotatediv").rotate(180);/*rotate div to rotate select & option*/
 
 ### Datepicker 
 Use JQueryUI datepicker instead of input type="date".<br>
@@ -89,8 +89,8 @@ Html :
 Javascript :
 
     $("#datepicker").datepicker();
-    $("#datepicker").rotate(parameters);  <!--rotate the input element-->
-    $("#datepicker").daterotate(parameters);  <!--rotate calendar-->
+    $("#datepicker").rotate(parameters);  /*rotate the input element*/
+    $("#datepicker").daterotate(parameters);  /*rotate calendar*/
 
 parameters could be "top", "right", "left" or angle deg.
 
