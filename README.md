@@ -65,7 +65,7 @@ Select rotate should be contained by a div tag and rotate the div tag.
 Html :
 
     <div class="rotatediv">
-    	<select id="rotateselect1">
+        <select id="rotateselect1">
     		<option value="1">1</option>
     		<option value="2">2</option>
     		<option value="3">3</option>
@@ -109,6 +109,6 @@ Html:
 Javascript:
 
     $(document).ready(function() {
-      $("#keyboard1").keyboard('.textinput1');
-      $("#keyboard2").keyboard('.textinput2');
+        $("#keyboard1").keyboard('.textinput1');
+        $("#keyboard2").keyboard('.textinput2');
     });
