@@ -9,7 +9,8 @@ Rotatefree works with all modern browsers with CSS3 support, as well as some old
 
 Including files 
 ------------------------------
-We use Jquery. If you use datepicker, JqueryUI is necessary.
+First, include Jquery.<br>
+If you use datepicker, JqueryUI is necessary.
 
     <!--Jquery-->
     <script src="http://code.jquery.com/jquery-1.10.2.js"></script>
@@ -18,24 +19,24 @@ We use Jquery. If you use datepicker, JqueryUI is necessary.
     <!--Input rotatefree-->
     <script src="js/rotatefree.js"></script>
     <!--Input rotatefree style-->
-    <link rel="stylesheet” href=”css/rotatefree.css">
+    <link rel="stylesheet" href="css/rotatefree.css">
 
 
-    <!--If you use datepicker should include JQuery UI and its style-->
+    <!--If you use datepicker, include JQuery UI and its style-->
     <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.2/jquery-ui.min.js"></script>
     <link rel="stylesheet" href="http://code.jquery.com/ui/1.11.1/themes/smoothness/jquery-ui.css">
 
 
-    <!--Our style-->
+    <!--Our demo style-->
     <link rel="stylesheet" href="css/input_style.css">
 
 Rotate
 ------------------------------
 Recommend using square element to avoid wrong location.<br>
-You can set value of CSS attribute transform-origin to change the transform origin.
+Or you can set value of CSS attribute transform-origin to change the axial center.
 
 ### Method 1 :
-Add class rotatetop, rotateright or rotateleft on the HTML element.<br>
+Directly add class rotatetop, rotateright or rotateleft on the HTML element.<br>
 Rotatetop: 180deg,<br>
 Rotateright: 90deg,<br>
 Rotateleft: -90deg.<br>
@@ -52,17 +53,18 @@ Html :
     <div id="IDNANE"></div>
 Javascript :
 
-    $("#IDNAME"). rotate(parameter);
+    $("#IDNAME").rotate(parameter);
 
-parameters could be "top", "right", "left" or angle deg.
+parameters could be "top", "right", "left" or angle deg, such as 172.
 
 Some objects need other HTML structure
 -----------------------------------------
 ### Select & Option tag 
-Select tag can’t rotate directly.<br>
-We custom new select by javascript,because orinal broswer option can't be rotate.<br>
-Use rotateselect function to change it.<br>
+Select and Option tag can’t rotate directly.<br>
+We custom new select by javascript, because original broswer Option tag can't be rotate.<br>
+Use rotateselect function to custom it.<br>
 Select rotate should be contained by a div tag and rotate the div tag.<br>
+Don't rotate Select and Option driectly even if it use rotateselect function.<br>
 <br>
 Html :
 
@@ -76,10 +78,10 @@ Html :
 Javascript :
 
     $("#rotateselect1").rotateselect();
-    $(".rotatediv").rotate(180);
+    $(".rotatediv").rotate(180);<!--rotate div to rotate select & option-->
 
 ### Datepicker 
-Use JQueryUI datepicker instead of input type date.<br>
+Use JQueryUI datepicker instead of input type="date".<br>
 <br>
 Html :
 
@@ -87,8 +89,8 @@ Html :
 Javascript :
 
     $("#datepicker").datepicker();
-    $("#datepicker").rotate(parameters);  <!-- rotate the input element -->
-    $("#datepicker").daterotate(parameters);  <!-- rotate calendar  -->
+    $("#datepicker").rotate(parameters);  <!--rotate the input element-->
+    $("#datepicker").daterotate(parameters);  <!--rotate calendar-->
 
 parameters could be "top", "right", "left" or angle deg.
 
@@ -103,12 +105,12 @@ The HTML screen keyboard default size is 683px * 230px.<br>
 <br>
 Html:
 
-    <input type="text" class="textinput1"/>
-    <textarea class="textinput1"><textarea>
-    <div id="keyboard1"></div>
-    <input type="text" class="textinput2"/>
-    <textarea class="textinput2">
-    <div id="keyboard2"></div>
+    <input type="text" class="textinput1"/> <!--keyboard1 input-->
+    <textarea class="textinput1"><textarea> <!--keyboard1 textarea-->
+    <div id="keyboard1"></div> <!--keyboard1-->
+    <input type="text" class="textinput2"/> <!--keyboard2 input-->
+    <textarea class="textinput2"> <!--keyboard2 textarea-->
+    <div id="keyboard2"></div> <!--keyboard2-->
 Javascript:
 
     $(document).ready(function() {
