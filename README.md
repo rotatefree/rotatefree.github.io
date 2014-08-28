@@ -5,7 +5,7 @@ HTML screen keyboard allow multiple input elements.
 
 Browser Support
 ------------------------------
-Rotatefree works with all modern browsers with CSS3 support,as well as some old ones such as Internet Explorer 8, 9, etc.
+Rotatefree works with all modern browsers with CSS3 support, as well as some old ones such as Internet Explorer 8, 9, etc.
 
 Including files 
 ------------------------------
@@ -61,7 +61,7 @@ Some objects need other HTML structure
 Select tag can’t rotate directly.<br>
 We custom new select by javascript,because orinal broswer option can't be rotate.<br>
 Use rotateselect function to change it.<br>
-Select rotate should be contained by a div tag and rotate the div tag.
+Select rotate should be contained by a div tag and rotate the div tag.<br>
 Html :
 
     <div class="rotatediv">
