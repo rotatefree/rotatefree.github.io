@@ -108,6 +108,8 @@ Html:
     <input type="text" class="textinput1"/> <!--keyboard1 input-->
     <textarea class="textinput1"><textarea> <!--keyboard1 textarea-->
     <div id="keyboard1"></div> <!--keyboard1-->
+
+
     <input type="text" class="textinput2"/> <!--keyboard2 input-->
     <textarea class="textinput2"> <!--keyboard2 textarea-->
     <div id="keyboard2"></div> <!--keyboard2-->
