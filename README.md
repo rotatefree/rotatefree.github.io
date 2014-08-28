@@ -94,7 +94,8 @@ parameters could be "top", "right", "left" or angle deg.
 
 Keyboard
 ----------------------------------------
-One keyboard can support multiple input elements and you can create several keyboards in one HTML page.<br>
+We edit the code from <a href="http://code.tutsplus.com/tutorials/creating-a-keyboard-with-css-and-jquery--net-5774">here</a>.<br>
+Our keyboard can support multiple input elements and you can create several keyboards in one HTML page.<br>
 If there are not only one input fields, you should give them same class to make them can input from the same keyboard.<br>
 Same class will input from the same keyboard.<br>
 The HTML screen keyboard can rotate such as other HTML elements.<br>
