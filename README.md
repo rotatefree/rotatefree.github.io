@@ -40,12 +40,13 @@ Rotatetop: 180deg,<br>
 Rotateright: 90deg,<br>
 Rotateleft: -90deg.<br>
 <br>
-html :
+Html :
 
     <div class="rotatetop">…</div>
 
 ### Method 2 : 
 Use javascript to rotate it.<br>
+<br>
 Html :
 
     <div id="IDNANE"></div>
@@ -62,6 +63,7 @@ Select tag can’t rotate directly.<br>
 We custom new select by javascript,because orinal broswer option can't be rotate.<br>
 Use rotateselect function to change it.<br>
 Select rotate should be contained by a div tag and rotate the div tag.<br>
+<br>
 Html :
 
     <div class="rotatediv">
